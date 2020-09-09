@@ -8,8 +8,6 @@ import {BackendApiService} from '../services/backend-api.service';
 })
 export class SpaceXComponent implements OnInit {
   XspaceDetails: any = [];
-  limitpage  = 12;
-  page = 1;
 
   constructor(private ApiConnect: BackendApiService) {
     this.Detailload();

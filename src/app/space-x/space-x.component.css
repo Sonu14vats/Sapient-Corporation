@@ -21,6 +21,10 @@
 .bt{
 
 }
+.container-m{
+  margin: 0 auto;
+  background: #fff;
+}
 .box {
   display: inline-grid;
   width: 83px;
@@ -55,15 +59,12 @@
 }
 
 .pf-bxc{
-  margin-top: -32%;
-  margin-left: 17%;
+  width: 180%;
+  margin-top: -89%;
+  margin-left: 59%;
 }
 .List {
   display: inline list-item;
   margin-left: 8%;
   color: cornflowerblue;
 }
-/*.pf-bxc ::placeholder {
-  color: #181B1D;
-  font-size: 14px;
-}*/
